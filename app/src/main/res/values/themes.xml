@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Style_Default" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/aquamarine_500</item>
+        <item name="colorPrimaryVariant">@color/aquamarine_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/aquamarine_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/text_default</item>
+        <item name="materialButtonStyle">@style/myButton_Default</item>
+        <item name="android:windowBackground">@drawable/fon</item>
+    </style>
+
+    <style name="myButton_Default" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_default</item>
+    </style>
+
+</resources>
